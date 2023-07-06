@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .abc{
+            
+            width:250px;
+            height:20px; 
+            margin-bottom: 15px;;
+        }
+        #age{
+            margin-left: 45px;
+        }
+        .container{
+            margin-left: 35%;
+            margin-top: 10%;
+        }
+        #submit{
+            background-color: green;
+            color: white;
+            margin-left: 180px;
+        }
+        #stid{
+            margin-left: 65px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="update.php" method="post">
+            <b>Student Id : </b> <input type="text" name="stid" id="stid"class="abc">
+            <br>
+            <b>Updated First name : </b><input type="text" name="ufname" id="fn"class="abc">
+            <br>
+           <b>Updated Last name : </b> <input type="text" name="ulname" id="ln"class="abc">
+            <br>
+           
+          
+            <b>Updated Age : </b><input type="text" name="uage" id ="age"class="abc">
+            <br>
+            <button type="submit" value="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

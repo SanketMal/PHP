@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .abc{
+            
+            width:250px;
+            height:20px; 
+            margin-bottom: 15px;;
+        }
+        #age{
+            margin-left: 45px;
+        }
+        .container{
+            margin-left: 35%;
+            margin-top: 10%;
+        }
+        #submit{
+            background-color: green;
+            color: white;
+            margin-left: 180px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="insertion.php" method="post">
+            <b>First name : </b><input type="text" name="fname" id="fn"class="abc">
+            <br>
+           <b>Last name : </b> <input type="text" name="lname" id="ln"class="abc">
+            <br>
+           <b>Student Id : </b> <input type="text" name="stid" id="stid"class="abc">
+            <br>
+            <b>Age : </b><input type="text" name="age" id ="age"class="abc">
+            <br>
+            <button type="submit" value="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
